@@ -41,7 +41,7 @@ class StepChild {
       output = output.substring(0, CHARACTER_LIMIT)
     }
 
-    return output
+    return Promise.resolve(output)
   }
 
   _sanitizeError (error) {
@@ -55,7 +55,7 @@ class StepChild {
       error = 'Unknown error.'
     }
 
-    return error
+    return Promise.reject(error)
   }
 
 }

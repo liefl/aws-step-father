@@ -11,7 +11,6 @@ const EVENTS = {
 
 const DEFAULT_POLL_INTERVAL = 65000
 const DEFAULT_HEARTBEAT_INTERVAL = 10000
-const DEFAULT_WORKER_NAME = 'ActivityWorker'
 
 class StepFather extends EventEmitter {
   constructor (stepFunctions, options) {
@@ -35,7 +34,6 @@ class StepFather extends EventEmitter {
 
     this.pollInterval = options.pollInterval || DEFAULT_POLL_INTERVAL
     this.heartbeatInterval = options.heartbeatInterval || DEFAULT_HEARTBEAT_INTERVAL
-    this.workerName = options.workerName || DEFAULT_WORKER_NAME
   }
 
   start () {
