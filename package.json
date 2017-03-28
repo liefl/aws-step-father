@@ -1,0 +1,16 @@
+{
+  "name": "aws-step-father",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liefl/aws-step-father.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liefl/aws-step-father/issues"
+  },
+  "homepage": "https://github.com/liefl/aws-step-father#readme"
+}
