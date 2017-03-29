@@ -31,6 +31,7 @@ class StepFather extends EventEmitter {
     this.stepFunctions = stepFunctions
     this.executableMethod = options.executableMethod
     this.activityArn = options.activityArn
+    this.workerName = options.workerName
 
     this.pollInterval = options.pollInterval || DEFAULT_POLL_INTERVAL
     this.heartbeatInterval = options.heartbeatInterval || DEFAULT_HEARTBEAT_INTERVAL
