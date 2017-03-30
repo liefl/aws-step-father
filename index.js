@@ -2,7 +2,7 @@ const EventEmitter = require('events')
 const StepChild = require('./step-child')
 
 const EVENTS = {
-  ERROR: 'error',
+  ERROR: 'err',
   SUCCESS: 'success',
   FAILURE: 'failure',
   HEARTBEAT: 'heartbeat',
