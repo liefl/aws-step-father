@@ -1,16 +1,28 @@
 {
   "name": "aws-step-father",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liefl/aws-step-father.git"
+  },
+  "scripts": {
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liefl/aws-step-father/issues"
   },
-  "homepage": "https://github.com/liefl/aws-step-father#readme"
+  "homepage": "https://github.com/liefl/aws-step-father#readme",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^7.0.22",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.72.0"
+  }
 }
